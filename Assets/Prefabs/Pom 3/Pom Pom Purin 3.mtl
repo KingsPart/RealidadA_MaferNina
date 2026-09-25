@@ -1,0 +1,26 @@
+# Exported from Nomad Sculpt
+
+newmtl Bolita_Gorro
+ map_Kd Bolita_Gorro_color_2.png
+ map_roughness Bolita_Gorro_roughness_2.png
+ map_metallic Bolita_Gorro_metalness_2.png
+
+newmtl Gorro
+ map_Kd Gorro_color_2.png
+ map_roughness Gorro_roughness_2.png
+ map_metallic Gorro_metalness_2.png
+
+newmtl Body
+ map_Kd Body_color_2.png
+ map_roughness Body_roughness_2.png
+ map_metallic Body_metalness_2.png
+
+newmtl Ears
+ map_Kd Ears_color_1.png
+ map_roughness Ears_roughness_1.png
+ map_metallic Ears_metalness_1.png
+
+newmtl Face
+ map_Kd Face_color.png
+ map_roughness Face_roughness.png
+ map_metallic Face_metalness.png
