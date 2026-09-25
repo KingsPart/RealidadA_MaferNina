@@ -376,11 +376,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 317610051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a38ec6dc9dce31a41a52d9792e21f0ea, type: 3}
+  m_Script: {fileID: 11500000, guid: fd92d1c6784de1c46b466e883ce6a388, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RaycastController
+  m_EditorClassIdentifier: Assembly-CSharp::RycstControl_VH
   raycastManager: {fileID: 1135631493}
-  objectToPlace: {fileID: 597668131015495854, guid: 915aa6077e6ff5040a12b43c927adbd9, type: 3}
+  horizontalObject: {fileID: 6739200136229390962, guid: a2ced7204e90476409581d565a6635eb, type: 3}
+  verticalObject: {fileID: 2579960945480982210, guid: 41af0e92d9913c04ab4b91603f19b07b, type: 3}
   debugText: {fileID: 1645356298}
 --- !u!1 &801686182
 GameObject:
