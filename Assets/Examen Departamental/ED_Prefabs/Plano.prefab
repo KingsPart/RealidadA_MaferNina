@@ -26,15 +26,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127065690423683895}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -4.44}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6897168070155818136}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.16}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 4, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &6914644210259330780
@@ -340,3 +340,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ED_ARColorPlano
   materialHorizontal: {fileID: 2100000, guid: b822eb2ff7daabf4ca3b7c075d57bfdb, type: 2}
   materialVertical: {fileID: 2100000, guid: ba6b9516f0231154384673058eeccdba, type: 2}
+  EtiquetaDimensiones: {fileID: 8724969532969506993}
