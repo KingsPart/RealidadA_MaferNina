@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: Library01
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5030621521963365587
+  m_GuidHigh: 11619946494290369446
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4622841473271639268
+      m_GuidHigh: 5788595053498428343
+    m_SerializedTextureGuid:
+      m_GuidLow: 8549166175481041968
+      m_GuidHigh: 9600845017622381131
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Doggy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5257513598779527202
+      m_GuidHigh: 11517883222798973363
+    m_SerializedTextureGuid:
+      m_GuidLow: 1946908003390396788
+      m_GuidHigh: 13826205702845200154
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Dumdum
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5413746770829055991
+      m_GuidHigh: 9978848218623919797
+    m_SerializedTextureGuid:
+      m_GuidLow: 11499060772885995251
+      m_GuidHigh: 1569656918939169850
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Sour
+    m_Texture: {fileID: 0}
