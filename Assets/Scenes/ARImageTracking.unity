@@ -211,6 +211,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &765526572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765526574}
+  - component: {fileID: 765526573}
+  m_Layer: 0
+  m_Name: Multiple Image Tracking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &765526573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765526572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b1bfab44191de4daba708d008f0f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MultipleImageTracking
+  imageManager: {fileID: 1135631493}
+  imagePrefabs:
+  - imageName: Doggy
+    imagePrefab: {fileID: 3663558106145011979, guid: b96c7427658120a41b7b744787b39ff3, type: 3}
+  - imageName: Dumdum
+    imagePrefab: {fileID: 3270946489136540902, guid: 251d8b6417b59dd4689693af9de70daf, type: 3}
+  - imageName: Jake
+    imagePrefab: {fileID: 5234173201683823308, guid: d043bf065f3c4fc42a65d683fd0c0675, type: 3}
+--- !u!4 &765526574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765526572}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &801686182
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +606,7 @@ MonoBehaviour:
       m_Calls: []
   m_SerializedLibrary: {fileID: 11400000, guid: e9a99aa4d1834394f8b61edcd72faa08, type: 2}
   m_MaxNumberOfMovingImages: 3
-  m_TrackedImagePrefab: {fileID: 198394379429543587, guid: bbdea830e3d8e504fb02b559d5b16520, type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &1135631494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,7 +614,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135631489}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c91259d0f45b8e54c9cb34cf978a702a, type: 3}
   m_Name: 
@@ -795,3 +847,4 @@ SceneRoots:
   - {fileID: 1431476641}
   - {fileID: 1860449895}
   - {fileID: 1135631491}
+  - {fileID: 765526574}
