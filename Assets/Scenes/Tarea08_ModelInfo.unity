@@ -1462,11 +1462,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Raycast_Nombres
   arCamera: {fileID: 801686188}
-  ModelName: {fileID: 0}
-  ModelDescription: {fileID: 0}
-  ModelCategory: {fileID: 0}
-  ModelLevel: {fileID: 0}
-  iconImage: {fileID: 0}
+  ModelName: {fileID: 2062023584}
+  ModelDescription: {fileID: 722372507}
+  ModelCategory: {fileID: 2108562767}
+  ModelLevel: {fileID: 53789240}
+  iconImage: {fileID: 1825195517}
 --- !u!1 &1431476639
 GameObject:
   m_ObjectHideFlags: 0
