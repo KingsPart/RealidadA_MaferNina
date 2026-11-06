@@ -40,6 +40,9 @@ public class Raycast_Nombres : MonoBehaviour
         if (touch.phase != UnityEngine.InputSystem.TouchPhase.Began)
             return;
 
+        // Limpiar información anterior
+        ClearInfo();
+
         // Crear el rayo desde la cámara hacia el punto tocado
         Ray ray = arCamera.ScreenPointToRay(touch.screenPosition);
 
@@ -59,6 +62,8 @@ public class Raycast_Nombres : MonoBehaviour
 
     private void ShowInfo(ModelData data)
     {
+        //ClearInfo();
+
         ModelName.text = data.name;
         ModelDescription.text = data.ModelDescription;
         ModelCategory.text = data.category;
@@ -66,5 +71,14 @@ public class Raycast_Nombres : MonoBehaviour
         iconImage.sprite = data.icon;
 
         Debug.Log("Modelo seleccionado: " + data);
+    }
+
+    private void ClearInfo()
+    {
+        ModelName.text = "[Model name]";
+        ModelDescription.text = "[Description]";
+        ModelCategory.text = "[Category]";
+        ModelLevel.text = "[Lvl]";
+        iconImage.sprite = null;
     }
 }
