@@ -2,12 +2,17 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
+using UnityEngine.UI;
 
 public class Raycast_Nombres : MonoBehaviour
 {
     [SerializeField] Camera arCamera;
-    [SerializeField] TMP_Text infoText;
 
+    [SerializeField] TMP_Text ModelName;
+    [SerializeField] TMP_Text ModelDescription;
+    [SerializeField] TMP_Text ModelCategory;
+    [SerializeField] TMP_Text ModelLevel;
+    [SerializeField] Image iconImage;
     private void OnEnable()
     {
         EnhancedTouchSupport.Enable();
@@ -18,10 +23,10 @@ public class Raycast_Nombres : MonoBehaviour
         EnhancedTouchSupport.Disable();
     }
 
-    void Start()
-    {
-        infoText.text = "Toca un modelo ya ya";
-    }
+    //void Start()
+    //{
+    //    ModelName.text = "Model name: ";
+    //}
 
     void Update()
     {
@@ -43,15 +48,23 @@ public class Raycast_Nombres : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             // Buscar el componente del modelo seleccionado
-            ModeloSeleccion selectedModel =
-                hit.collider.GetComponentInParent<ModeloSeleccion>();
+            ModeloSeleccion selectedModel = hit.collider.GetComponentInParent<ModeloSeleccion>();
 
-            if (selectedModel != null)
+            if (selectedModel != null && selectedModel.Data != null)
             {
-                infoText.text = "Modelo seleccionado: " + selectedModel.ModelitoNombrecito;
-
-                Debug.Log("Modelo seleccionado: " + selectedModel.ModelitoNombrecito);
+                ShowInfo(selectedModel.Data);
             }
         }
+    }
+
+    private void ShowInfo(ModelData data)
+    {
+        ModelName.text = data.name;
+        ModelDescription.text = data.ModelDescription;
+        ModelCategory.text = data.category;
+        ModelLevel.text = "Nivel: " + data.level;
+        iconImage.sprite = data.icon;
+
+        Debug.Log("Modelo seleccionado: " + data);
     }
 }

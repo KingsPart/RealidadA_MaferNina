@@ -41,14 +41,14 @@ public class MultipleImageTracking : MonoBehaviour
                     instancedPrefab.transform.localPosition = Vector3.zero;
                     //instancedPrefab.transform.localRotation = Quaternion.identity;
 
-                    ModeloSeleccion selectable = instancedPrefab.GetComponent<ModeloSeleccion>();
+                    //ModeloSeleccion selectable = instancedPrefab.GetComponent<ModeloSeleccion>();
 
-                    if (selectable == null)
-                    {
-                        selectable = instancedPrefab.AddComponent<ModeloSeleccion>();
-                    }
+                    //if (selectable == null)
+                    //{
+                        //selectable = instancedPrefab.AddComponent<ModeloSeleccion>();
+                    //}
 
-                    selectable.ModelitoNombrecito = item.imagePrefab.name;
+                    //selectable.ModelitoNombrecito = item.imagePrefab.name;
 
                     spawnedObjects.Add(image.trackableId, instancedPrefab);
 
