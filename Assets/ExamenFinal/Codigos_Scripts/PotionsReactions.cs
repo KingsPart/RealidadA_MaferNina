@@ -5,8 +5,8 @@ using UnityEngine.Rendering;
 public class PotionsReactions : ScriptableObject
 {
     [Header("Required Ingredients")]
-    public ElementData elementA;
-    public ElementData elementB;
+    public ElementData potionA;
+    public ElementData potionB;
 
     [Header("Result")]
     public ElementData result;
@@ -17,6 +17,6 @@ public class PotionsReactions : ScriptableObject
 
     public bool CanReact(ElementData a, ElementData b)
     {
-        return (a == elementA && b == elementB) || (a == elementB && b == elementA);
+        return (a == potionA && b == potionB) || (a == potionB && b == potionA);
     }
 }

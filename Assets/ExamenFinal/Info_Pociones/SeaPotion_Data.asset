@@ -19,5 +19,5 @@ MonoBehaviour:
     Grants Poseidon''s power for
     a fleeting moment. Make waves while you can!'
   level: 30
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 57551430bd5776a44b02f612ad0d3d85, type: 3}
   prefab: {fileID: 852687664685948873, guid: dd05a71a30a9b6143950605dd4481987, type: 3}

@@ -19,5 +19,5 @@ MonoBehaviour:
     A little sip of liquid confidence
     to turn unlikely chances into remarkable victories.'
   level: 15
-  icon: {fileID: 21300000, guid: 2df918f4ca3904e4aa0db72c6c9dcb00, type: 3}
+  icon: {fileID: 0}
   prefab: {fileID: 2673578950613372812, guid: 76880fbca4dfc2447862d0d320fc2ff3, type: 3}

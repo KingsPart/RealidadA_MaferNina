@@ -43,6 +43,8 @@ public class ARImageSpawner : MonoBehaviour
         }
     }
 
+    // Busca el scriptable object que corresponde a la imagen detectada e instancia el modelo
+    // y lo guarda en el diccionario
     void RegisterImage(ARTrackedImage image)
     {
         TrackableId id = image.trackableId;
@@ -68,7 +70,7 @@ public class ARImageSpawner : MonoBehaviour
 
         UpdateVisibility(potion);
 
-        Debug.Log("Element detected: " + data.PotionName);
+        Debug.Log("Potion detected: " + data.PotionName);
     }
 
     ElementData FindPotion(string imageName)
@@ -103,5 +105,14 @@ public class ARImageSpawner : MonoBehaviour
     void UpdateVisibility(TrackedPotion potion)
     {
         bool shouldBeVisible = potion.IsTracking() && !potion.isReacting;
+
+        potion.SetVisible(shouldBeVisible);
+    }
+
+    //Llamada oir ARReactionManager | esta es una clase
+    public void SetPotionReacting(TrackedPotion potion, bool reacting)
+    {
+        potion.SetReacting(reacting);
+        UpdateVisibility(potion);
     }
 }
