@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dac55aebdfac4f4096f49000eb4a2e9, type: 3}
+  m_Name: Confidence_Data
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData
+  PotionName: Felix Felicis
+  description: 'Fortune favors the bold!
+
+
+    A little sip of liquid confidence
+    to turn unlikely chances into remarkable victories.'
+  level: 15
+  icon: {fileID: 21300000, guid: 2df918f4ca3904e4aa0db72c6c9dcb00, type: 3}
+  prefab: {fileID: 2673578950613372812, guid: 76880fbca4dfc2447862d0d320fc2ff3, type: 3}

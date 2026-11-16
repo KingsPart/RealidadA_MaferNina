@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e7c3580e385dc4b9ebdb8bc05a021c, type: 3}
+  m_Name: LifeSea_Reaction
+  m_EditorClassIdentifier: Assembly-CSharp::PotionsReactions
+  elementA: {fileID: 11400000, guid: 2d4a09ad96670bb4b890d16e6085036f, type: 2}
+  elementB: {fileID: 11400000, guid: 27a9ca2def17e3049aafd0fd6f3ade0d, type: 2}
+  result: {fileID: 11400000, guid: 1b16d1b7d13d036498c49fe6d3ad43d0, type: 2}
+  interactionDistance: 0.15
+  reactionSound: {fileID: 0}

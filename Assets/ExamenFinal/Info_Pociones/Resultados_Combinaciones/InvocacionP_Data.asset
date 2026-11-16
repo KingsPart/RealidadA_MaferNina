@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dac55aebdfac4f4096f49000eb4a2e9, type: 3}
+  m_Name: InvocacionP_Data
+  m_EditorClassIdentifier: Assembly-CSharp::ElementData
+  PotionName: Tideborn
+  description: 'Playing creator, are we?
+
+
+    A rare concoction that gives life
+    to the sea''s forgotten wonders. Quite the achievement!'
+  level: 0
+  icon: {fileID: 0}
+  prefab: {fileID: 6427494499406210480, guid: 016296b98e9d36c428b68f9ffc21c9f4, type: 3}
