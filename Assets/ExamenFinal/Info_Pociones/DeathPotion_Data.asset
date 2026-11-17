@@ -19,5 +19,5 @@ MonoBehaviour:
     A forbidden brew that drains
     the very essence of life. Not a remedy for the faint-hearted!'
   level: 40
-  icon: {fileID: 21300000, guid: 2df918f4ca3904e4aa0db72c6c9dcb00, type: 3}
+  icon: {fileID: 21300000, guid: 15d6f7d297ca31a4db5ce6818189818e, type: 3}
   prefab: {fileID: 1662554250560479101, guid: de077af7f75a3e54f827193784f2533c, type: 3}

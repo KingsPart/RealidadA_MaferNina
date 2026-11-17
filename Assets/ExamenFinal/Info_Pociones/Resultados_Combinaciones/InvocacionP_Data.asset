@@ -19,5 +19,5 @@ MonoBehaviour:
     A rare concoction that gives life
     to the sea''s forgotten wonders. Quite the achievement!'
   level: 0
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: bb2448588076bc949b50b129aae01ebc, type: 3}
   prefab: {fileID: 6427494499406210480, guid: 016296b98e9d36c428b68f9ffc21c9f4, type: 3}

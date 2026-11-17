@@ -19,5 +19,5 @@ MonoBehaviour:
     One drop will make your
     beloved''s heart flutter. Too much, and things might get a little more... "devoted."'
   level: 10
-  icon: {fileID: 21300000, guid: a703d41fd5c06774992d60b62e8057ca, type: 3}
+  icon: {fileID: 21300000, guid: 8e081516d98bf5248a285e7cc0491205, type: 3}
   prefab: {fileID: 179047151727407498, guid: 5ce3517b0d1f6d847a239af34ef245b3, type: 3}

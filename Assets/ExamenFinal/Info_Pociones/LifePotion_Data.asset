@@ -19,5 +19,5 @@ MonoBehaviour:
     A single sip can restore
     even the faintest spark of life. Don''t let this precious drop go to waste!'
   level: 50
-  icon: {fileID: 21300000, guid: 2dbb23e7789091d439097fa6c6e36eee, type: 3}
+  icon: {fileID: 21300000, guid: 404fe6dc4e2b62b4abf58a5cb4e9c8d9, type: 3}
   prefab: {fileID: 5620467826989749484, guid: 6e45129b099003948aa19cc9110c1954, type: 3}
