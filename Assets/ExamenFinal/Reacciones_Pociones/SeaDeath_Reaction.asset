@@ -16,4 +16,4 @@ MonoBehaviour:
   potionB: {fileID: 11400000, guid: 559f9d9036a2215449fc7d3b23659fb4, type: 2}
   result: {fileID: 11400000, guid: e2cf44c6431cde64daa579d6d844e35a, type: 2}
   interactionDistance: 0.15
-  reactionSound: {fileID: 0}
+  reactionSound: {fileID: 8300000, guid: 174800b27a20f4043aadb0da69c61911, type: 3}

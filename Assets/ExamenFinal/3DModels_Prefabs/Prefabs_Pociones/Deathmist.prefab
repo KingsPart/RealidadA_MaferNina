@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
-  m_fontSizeBase: 11
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -597,8 +597,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc210228a576c6e40862d8944b0b451e, type: 2}
+  m_sharedMaterial: {fileID: 7337605797001171225, guid: dc210228a576c6e40862d8944b0b451e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -689,39 +689,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.016
+      value: -0.06436775
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.057
+      value: -0.00012387149
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.011
+      value: -0.018699996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 0.14185427
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5
+      value: 0.14185427
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: -0.6927318
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: -0.6927318
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -66.854
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c4469af4e3986f439b22baa7f00ccc0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

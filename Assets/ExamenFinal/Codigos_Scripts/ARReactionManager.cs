@@ -28,20 +28,32 @@ public class ARReactionManager : MonoBehaviour
     {
         if (hasInteracted)
         {
-            if(reactingA == null || reactingB == null || !reactingA.IsTracking()  || !reactingB.IsTracking())
+            if (reactingA == null || reactingB == null || !reactingA.IsTracking() || !reactingB.IsTracking())
             {
                 CancelReaction();
                 return;
             }
 
-            //if(!reactingA.IsTracking() || !reactingB.IsTracking())
-            //{
-                //Debug.LogWarning($"TRACKING LOST! A: {reactingA.data.PotionName} || State: {reactingA.trackedImage.trackingState} || " +
-                    //$"Removed: {reactingA.isRemoved} || || B: {reactingB.data.PotionName} || State: {reactingB.trackedImage.trackingState} || " +
-                    //$"Removed: {reactingA.isRemoved}");
+            // Comprobar si las pociones siguen suficientemente cerca
+            float distance = Vector3.Distance(reactingA.GetPosition(), reactingB.GetPosition());
 
-               // CancelReaction();
-            //}
+            // Si se alejan, cancelar la combinacion
+            PotionsReactions activeReaction = null;
+
+            foreach (PotionsReactions reaction in reactions)
+            {
+                if (reaction != null && reaction.CanReact(reactingA.data, reactingB.data))
+                {
+                    activeReaction = reaction;
+                    break;
+                }
+            }
+
+            if (activeReaction != null && distance > activeReaction.interactionDistance)
+            {
+                CancelReaction();
+                return;
+            }
 
             return;
         }
