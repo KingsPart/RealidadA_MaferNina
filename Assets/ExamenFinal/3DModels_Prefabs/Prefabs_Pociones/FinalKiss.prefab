@@ -735,6 +735,30 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: be7e364754cf7fb49ac30ddae9705563, type: 2}
+    - target: {fileID: -6403184444405656241, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6403184444405656241, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6403184444405656241, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6403184444405656241, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6403184444405656241, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6403184444405656241, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -3551048944229021150, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -786,6 +810,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5107840192037795101}
+    - targetCorrespondingSourceObject: {fileID: 2680297085270258155, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3613638718742387050}
   m_SourcePrefab: {fileID: 100100000, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
 --- !u!1 &1662554250560479101 stripped
 GameObject:
@@ -826,3 +853,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
   m_PrefabInstance: {fileID: 2005225095373791788}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4531094453967410119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2680297085270258155, guid: a653d4470b850bf4fb4244633a649ba5, type: 3}
+  m_PrefabInstance: {fileID: 2005225095373791788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3613638718742387050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4531094453967410119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 458a2ad2de09f7a4eb3321de008f0fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimacionIdle_Pociones
+  floatSpeed: 1.2
+  floatAmount: 0.01

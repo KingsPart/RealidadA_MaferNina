@@ -20,4 +20,4 @@ MonoBehaviour:
     to turn unlikely chances into remarkable victories.'
   level: 15
   icon: {fileID: 21300000, guid: ef2f5f140b26ae34f9ba677ded920aa1, type: 3}
-  prefab: {fileID: 2673578950613372812, guid: 76880fbca4dfc2447862d0d320fc2ff3, type: 3}
+  prefab: {fileID: 8443170301321773059, guid: 807f27cab5dbb03409fac240611ce008, type: 3}

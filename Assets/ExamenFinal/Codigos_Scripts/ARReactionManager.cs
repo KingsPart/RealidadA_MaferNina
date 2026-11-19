@@ -10,6 +10,9 @@ public class ARReactionManager : MonoBehaviour
     [Header("Spawner")]
     [SerializeField] private ARImageSpawner imageSpawner;
 
+    [Header("AR Camera")]
+    [SerializeField] private Camera arCamera;
+
     [Header("Available Reactions")]
     [SerializeField] private List<PotionsReactions> reactions = new List<PotionsReactions>();
 
@@ -122,7 +125,17 @@ public class ARReactionManager : MonoBehaviour
 
         Vector3 midPoint = (a.GetPosition() + b.GetPosition()) / 2;
 
-        resultInstance = Instantiate(reaction.result.prefab, midPoint, Quaternion.identity);
+        // Calcular la direccion hacia la camara
+        Vector3 directionToCamera = arCamera.transform.position - midPoint;
+
+        // Evitar que el modelo se incline hacia arriba o abajo
+        directionToCamera.y = 0;
+
+        // Calcular la rotacion para mirar hacia la camara
+        Quaternion resultRotation = Quaternion.LookRotation(directionToCamera, Vector3.up);
+
+        // Crear el resultado
+        resultInstance = Instantiate(reaction.result.prefab, midPoint, resultRotation);
 
         ModeloSeleccion info = resultInstance.GetComponent<ModeloSeleccion>();
 

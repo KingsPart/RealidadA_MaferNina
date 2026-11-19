@@ -20,4 +20,4 @@ MonoBehaviour:
     a fleeting moment. Make waves while you can!'
   level: 30
   icon: {fileID: 21300000, guid: a92b132b1f24fb243825a36ed381e7e6, type: 3}
-  prefab: {fileID: 852687664685948873, guid: dd05a71a30a9b6143950605dd4481987, type: 3}
+  prefab: {fileID: 7513887115860541668, guid: d1a9bd77a0090734bafd2a16467eb3cf, type: 3}

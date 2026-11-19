@@ -20,4 +20,4 @@ MonoBehaviour:
     the ocean. Best not to take a deep breath!'
   level: 35
   icon: {fileID: 21300000, guid: f2a4a02afef23104d8cd527626f923f3, type: 3}
-  prefab: {fileID: 2351730643011984398, guid: ee18569f3edbdaa42812b95e1c29dcdc, type: 3}
+  prefab: {fileID: 5531614832866593516, guid: 8b48d9b38fe84814daaee8813cbda54d, type: 3}

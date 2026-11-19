@@ -447,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 2.09, y: 178.594, z: 49.259}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.224, y: 0.18}
+  m_AnchoredPosition: {x: 0.246, y: 0.199}
   m_SizeDelta: {x: 500, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2594743037616399479
@@ -689,7 +689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.008
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -697,7 +697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.021
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -733,11 +733,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6066614257934092408, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.036
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6066614257934092408, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.049
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6066614257934092408, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -783,6 +783,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 996424639455346177}
+    - targetCorrespondingSourceObject: {fileID: -1150913568578556455, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 325608229429398123}
   m_SourcePrefab: {fileID: 100100000, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
 --- !u!1 &179047151727407498 stripped
 GameObject:
@@ -823,3 +826,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
   m_PrefabInstance: {fileID: 1062132348902755547}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9131700853927731458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1150913568578556455, guid: 42845a106013ddf43837278b55b9e2e0, type: 3}
+  m_PrefabInstance: {fileID: 1062132348902755547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &325608229429398123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131700853927731458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 458a2ad2de09f7a4eb3321de008f0fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimacionIdle_Pociones
+  floatSpeed: 1.2
+  floatAmount: 0.01
