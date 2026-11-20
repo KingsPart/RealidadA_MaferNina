@@ -6,31 +6,31 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/ActividadesDeClase/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Scenes/ARSceneTemplate.unity
+    path: Assets/ActividadesDeClase/Scenes/ARSceneTemplate.unity
     guid: ccef3c6179f0f0540a4bad48ec157097
   - enabled: 0
-    path: Assets/Scenes/ARPlaneDetection.unity
+    path: Assets/ActividadesDeClase/Scenes/ARPlaneDetection.unity
     guid: 4b9b11ed013208f4c84f5b1b405563df
   - enabled: 0
-    path: Assets/Scenes/ARRaycast.unity
+    path: Assets/ActividadesDeClase/Scenes/ARRaycast.unity
     guid: ea68500333941314e939f23aa5065903
   - enabled: 0
-    path: Assets/Scenes/ARRaycast_VerticalHorizontal.unity
+    path: Assets/ActividadesDeClase/Scenes/ARRaycast_VerticalHorizontal.unity
     guid: 4ae9e8d4f8f3bac41b066212b2082fa2
   - enabled: 0
     path: Assets/Examen Departamental/ED_Escenas/DepartamentalHaydeeFer.unity
     guid: 0d8eeed93973f744984d8758920fe83a
   - enabled: 0
-    path: Assets/Scenes/ARImageTracking.unity
+    path: Assets/ActividadesDeClase/Scenes/ARImageTracking.unity
     guid: fac464295b3a2874a87bfb9d6943f11c
   - enabled: 0
-    path: Assets/Scenes/ARImageTrackingYraycast.unity
+    path: Assets/ActividadesDeClase/Scenes/ARImageTrackingYraycast.unity
     guid: 0c0a8a5e121f6824fb47b933961ae6ec
   - enabled: 0
-    path: Assets/Scenes/Tarea08_ModelInfo.unity
+    path: Assets/ActividadesDeClase/Scenes/Tarea08_ModelInfo.unity
     guid: 24d8c7461e1466948821272b139238d5
   - enabled: 1
     path: Assets/ExamenFinal/ExamenFinal_NinaFer.unity
